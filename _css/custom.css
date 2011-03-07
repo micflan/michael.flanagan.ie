@@ -40,7 +40,7 @@ h1 a, h1 a:hover { color: #ededed; }
 #blogWrap .post_content { padding: 10px 20px; }
 */
 .post_title { width: 100% !important; margin: 0 !important; padding: 0 !important; font-size: 1.6em; }
-.post_title a, .post_title span { width: auto !important; height: auto; margin-top: -20px !important;  height: auto !important; background: #ccc; border-radius: 0 0 10px 10px; }
+.post_title a, .post_title span { width: auto !important; height: auto; margin-top: -20px !important;  height: auto !important; background: #ccc; border-radius: 0 0 10px 10px; -moz-border-radius: 0 0 10px 10px; -webkit-border-radius: 0 0 10px 10px; }
 
 #twitterWrap .item { margin-bottom: 15px; overflow: hidden; }
 #twitterWrap .post_title { font-size: 1.3em; height: 100px; overflow: hidden; background: white; border-right: 1px solid #ededed; width: 443px; margin: 0px; }
