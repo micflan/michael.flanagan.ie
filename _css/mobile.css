@@ -1,0 +1,33 @@
+
+body { background: #2e2e2e; }
+h1 { position: relative; width: 100%; overflow: hidden; margin: 10px 0 10px; text-indent: 5px; font-size: 79px; text-align: center; line-height: 0.8em; }
+
+.container { width: 100% !important; overflow: hidden !important; }
+.span-16 { width: 100%; }
+#menu { width: 100%; float: none; margin-top: 0; position: relative; }
+#menu li { margin: 0 10px 15px; }
+
+#content { float: none; margin-top: 0px; margin-left: 0; position: relative; }
+.post_content * { max-width: 250px !important; }
+
+#helloWrap { width: auto; height: auto; margin: 0 10px; }
+#helloWrap p:last-child { margin-bottom: 0px; padding-bottom: 0px; }
+#otherWrap { visibility: hidden; display: none; }
+#blogWrap { margin: 0 10px; }
+
+#helloWrap .box .box { padding: 0.5em; }
+
+.item { margin-bottom: 40px !important; }
+.post_title { width: 100% !important; margin: 0 !important; padding: 0 !important; font-size: 1.6em; }
+.post_title a { width: auto !important; height: auto; margin-top: -20px !important;  height: auto !important; background: #ccc; border-radius: 0 0 10px 10px; }
+.post_content { background: transparent !important; width: auto !important; padding: 0 !important; margin: 0 !important; height: auto !important; float: none !important; clear: both; overflow: hidden !important; }
+.post_date { height: 50px !important; background: transparent !important; }
+.post_date a, .post_date span { line-height: 50px !important; padding: 0px !important; }
+
+#originalLink a { background: none repeat scroll 0 0 #CCCCCC; color: #232323; display: block; margin: 20px 10px 20px; padding: 5px 10px; position: relative; }
+	#menu li #menu li:hover { background: #1A55A3; }
+	#menu li a:active, #menu li:hover a { color: white; }
+	#menu li a:active span, #menu li:hover a span { color: white; }
+	#menu li.on { border: 2px dotted #2e2e2e; background: #fff; }
+	#menu li.on a { color: #ccc; }
+	#menu li.on a span { color: #2e2e2e; }
