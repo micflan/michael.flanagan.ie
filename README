@@ -1,0 +1,8 @@
+michael.flanagan.ie
+
+this is the code for my personal website.
+
+Blog posts are collected from the WordPress database using a MySQL connection
+Recent tweets are collected from the RSS using PHPSimplePie
+Delicious bookmarks are collection from the API using a PHP library
+
