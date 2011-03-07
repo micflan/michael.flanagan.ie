@@ -37,7 +37,7 @@
 		<div id="blogWrap">
 			<?php foreach ($blogs as $blog): ?>
 				<div class="item box">
-					<div class="span-10 post_title"><a href="read/<?php echo $blog['ID'] . '/' . $blog['post_name']; ?>"><?php echo $blog['post_title']; ?></a></div>
+					<div class="span-10 post_title"><a href="/read/<?php echo $blog['ID'] . '/' . $blog['post_name']; ?>"><?php echo $blog['post_title']; ?></a></div>
 					<div class="block post_date last"><span><?php echo date('j M Y', strtotime($blog['post_date'])); ?></span></div>
 					<div class="clear post_content"><?php echo $type->auto_typography($blog['post_content']); ?></div>
 				</div>
