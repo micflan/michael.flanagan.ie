@@ -2,6 +2,7 @@
 	error_reporting(E_ALL);
 	ini_set('display_errors',1);
 
+	require_once('_includes/config.php');
 	require_once('_includes/Typography.php');
 	require_once('_includes/helpers.php');
 	$type = new Typography();
