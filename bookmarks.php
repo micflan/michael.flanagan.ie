@@ -11,6 +11,7 @@
 	ob_start();
 
 	$rss = 'http://feeds.delicious.com/v2/rss/micflan?count=15';
+	require_once('_includes/config.php');
 	require_once('_includes/class.delicious.php');
 	require_once('_includes/helpers.php');
 	
