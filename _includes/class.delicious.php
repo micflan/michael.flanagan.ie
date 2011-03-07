@@ -10,7 +10,7 @@ class delicious_api_client
     public function __construct()
     {
         $this->auth_user = "micflan";
-        $this->auth_passwd = "free4orlink";
+        $this->auth_passwd = "";
 
         $this->curl = @curl_init();
 
