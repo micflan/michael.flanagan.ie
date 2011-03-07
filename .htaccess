@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule read/(.*)/(.*)/$ /lifestream/read.php?$1=$2
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.php [NC,L]
